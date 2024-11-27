@@ -1,0 +1,43 @@
+// src/styles/custom.scss
+
+@import 'bootstrap';
+
+// 
+
+.h1-header{
+    font-size: 70px;
+}
+
+.btn {
+    width: 251px;
+    height: 56px;
+    border-radius: 30px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+
+.p-wellbeing{
+    font-weight: 400;
+    width: 110px;
+}
+
+.innerPadding{
+    padding: 80px;
+}
+
+  
+
+//aplicar variables y css normal
+body {
+    .newEra {
+        padding-top: 200px;
+    }
+
+    .imgs-top{
+        padding-top: 50px;
+    }
+
+    // .wellbeing{
+    // }
+    
+}
