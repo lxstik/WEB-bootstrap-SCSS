@@ -18,17 +18,36 @@
 
 .p-wellbeing{
     font-weight: 400;
-    width: 110px;
+    width: 180px;
 }
 
 .innerPadding{
-    padding: 80px;
+    padding: 100px !important;
 }
 
+.mb{
+    padding-bottom: 56px;
+}
+
+.bg{
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    margin-top: 400px !important;
+}
+
+.encabezado{
+    font-size: 49px !important;
+    padding-bottom: 30px;
+}
   
 
 //aplicar variables y css normal
 body {
+    header{
+        nav{
+            margin: 10px 0px;
+        }
+    }
     .newEra {
         padding-top: 200px;
     }
@@ -37,7 +56,36 @@ body {
         padding-top: 50px;
     }
 
-    // .wellbeing{
-    // }
+    .imgs2 {
+        img{
+            border-radius: 15px;
+        }
+        .bg {
+            background-color: #F4F4F4;
+        }
+        .innerPadding {
+            padding: 80px 40px; 
+        }
+        h1 {
+            font-size: 36px;
+            color: #333;
+        }
+        .leaf-item {
+            text-align: left;
+            max-width: 200px;
+            img {
+                margin-bottom: 15px;
+            }
+            p {
+                font-size: 16px;
+
+            }
+        }
+        .meditation-img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+    
     
 }
