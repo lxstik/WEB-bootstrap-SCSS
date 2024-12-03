@@ -212,6 +212,25 @@ body {
         }
     }
 }
-footer{
-    background-color: #285E67;
+footer {
+    background-color: #285E67; /* Color de fondo del footer */
+
+    
+    .footcont {
+        nav {
+            background-color: #285E67 !important;
+        }
+        a, p, span { 
+            color: white !important; 
+            text-decoration: none; 
+        }
+        .logos{
+            div{
+                img{
+                    margin: 20px 14px 0px 0px;
+                }
+            }
+        }
+    }
 }
+
